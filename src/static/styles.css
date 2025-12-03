@@ -136,6 +136,42 @@ button:hover {
   display: none;
 }
 
+/* Nuevos estilos para la sección de participantes dentro de la tarjeta */
+.participants-section {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+.participants-section p {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin-left: 18px;
+  color: #444;
+  max-height: 120px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.participant-item {
+  font-size: 14px;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+
+.no-participants {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* Mantener footer y resto */
 footer {
   text-align: center;
   margin-top: 30px;
