@@ -150,8 +150,9 @@ button:hover {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 18px;
+  list-style-type: none;
+  margin: 6px 0 0 0;
+  padding: 0;
   color: #444;
   max-height: 120px;
   overflow-y: auto;
@@ -162,6 +163,22 @@ button:hover {
   font-size: 14px;
   padding: 4px 0;
   border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+
+/* Delete button styling next to each participant */
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0 6px;
+}
+
+.delete-btn:hover {
+  color: #9a1f1f;
 }
 
 .no-participants {
